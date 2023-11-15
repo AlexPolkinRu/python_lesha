@@ -1,4 +1,4 @@
-dict1 = {'cd': 'sass', 'mum': 'utys', 'man': 'hjht' }
+dict1 = {'cd': 'sass', 'mum': 'utys', 'man': 'hjht'}
 a = input('введите слово или фразу\n')
 words = a.lower().split()
 # print(words)
