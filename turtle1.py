@@ -1,12 +1,10 @@
 from turtle import *
-color("blue")
+colors = ['red', 'blue', 'pink', 'green', 'orange', 'yellow', 'dark blue', 'purple']
 shape("turtle")
-speed(10)
 pensize(4)
-forward(50)
-right(90)
-forward(50)
-right(90)
-forward(50)
-right(90)
-forward(50)
+speed(10)
+while True:
+    for x in colors:
+        backward(5)
+        color(x)
+        right(330)
