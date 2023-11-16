@@ -1,4 +1,6 @@
+import random
 from turtle import *
+from random import randint
 
 
 def vshape():
@@ -19,16 +21,17 @@ def snowflakeArm():
 
 
 def snowflake():
-    for x in range(0, 19):
+    for x in range(0, 6):
+        color(random.choice(colors))
         snowflakeArm()
-        right(20)
+        right(60)
 
 
 hideturtle()
 speed(10)
-pencolor('white')
 pensize(6)
 Screen().bgcolor('turquoise')
+colors = ["blue", "purple", "cyan", "white", "yellow", "green", "orange"]
 snowflake()
 
 while True:
