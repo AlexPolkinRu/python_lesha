@@ -1,6 +1,5 @@
 import random
 from turtle import *
-from random import randint
 
 
 def vshape():
@@ -33,6 +32,3 @@ pensize(6)
 Screen().bgcolor('turquoise')
 colors = ["blue", "purple", "cyan", "white", "yellow", "green", "orange"]
 snowflake()
-
-while True:
-    pass
